@@ -1,0 +1,169 @@
+body {
+  background-image: url("bg-image.jpg");
+  background-size: cover;
+  font-family: "Courgette", cursive;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.content {
+  color: aliceblue;
+  margin-top: 280px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 150px;
+}
+
+.box {
+  margin-top: 220px;
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.navbar {
+  justify-content: space-evenly;
+  border-radius: 10px;
+  font-family: "Sofia", sans-serif;
+}
+
+.navbar ul {
+  justify-content: space-evenly;
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+  padding-left: 40px;
+  margin: 30px 50px;
+}
+
+.navbar li a {
+  font-family: "Shadows Into Light Two", cursive;
+  padding: 4px 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+}
+
+main,
+.push {
+  min-height: 85vh;
+  margin-bottom: -100px;
+}
+
+footer {
+  background-color: aliceblue;
+  height: 70px;
+  display: block;
+}
+
+.footerContainer {
+  width: 100%;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: aliceblue;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.socialIcons a i:hover {
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.names {
+  font: 400 1em/1.5 "Neuton";
+  background: #090d00;
+  color: rgba(255, 255, 255, 0.824);
+  text-align: center;
+  margin: 0;
+}
+
+.names-title {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, 0.219);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+
+  .names-span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 10% 50%;
+  }
+  70% {
+    background-position: 100% 100%;
+  }
+}
+
+.lower{
+  text-align: center;
+  justify-content: center;
+}
+
+.h1css {
+  transition-delay: inherit;
+  font-size: 3em;
+  padding-top: 10%;
+  float: inherit;
+  color: aliceblue;
+}
+
+.videos {
+  float: left;
+  height: 500px;
+  width: 700px;
+  border-radius: 30px;
+  margin-top: -50px;
+}
